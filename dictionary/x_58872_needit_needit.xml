@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element display="true" label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" reference_qual="first_nameSTARTSWITH^EQ" reference_qual_condition="first_nameSTARTSWITH^EQ" type="reference"/>
+        <element choice="1" label="Requested Type" mandatory="true" max_length="40" name="requested_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" value="Facility"/>
+                <element inactive_on_update="false" label="Human Resources" value="HP"/>
+                <element inactive_on_update="false" label="Legal" value="Legal"/>
+            </choice>
+        </element>
+        <element label="When needed" max_length="40" name="when_needed" type="calendar_date_time"/>
+    </element>
+</database>
