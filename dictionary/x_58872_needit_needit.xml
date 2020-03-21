@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="1" type="collection">
         <element display="true" label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" reference_qual="first_nameSTARTSWITH^EQ" reference_qual_condition="first_nameSTARTSWITH^EQ" type="reference"/>
         <element choice="1" label="Requested Type" mandatory="true" max_length="40" name="requested_type" type="choice">
             <choice>
