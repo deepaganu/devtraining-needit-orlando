@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedItTable" max_length="40" name="x_58872_needit_needittable" sizeclass="2" type="collection">
+        <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="x_58872_needit_sys_user" type="reference"/>
+        <element choice="3" default="Legal" label="Requested Type" max_length="40" name="requested_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" value="fc"/>
+                <element inactive_on_update="false" label="Human Resources" value="hr"/>
+                <element inactive_on_update="false" label="Legal" value="Legal"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+            </choice>
+        </element>
+        <element choice="1" label="What Needed" mandatory="true" max_length="40" name="what_needed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities 1" value="fc1"/>
+                <element inactive_on_update="false" label="Facilities 2" value="fc2"/>
+                <element inactive_on_update="false" label="Human Resources 1" value="hr1"/>
+                <element inactive_on_update="false" label="Human Resources 2" value="hr2"/>
+                <element inactive_on_update="false" label="Legal 1" value="l1"/>
+                <element inactive_on_update="false" label="Legal2" value="l2"/>
+                <element inactive_on_update="false" label="Other" value="oth1"/>
+            </choice>
+        </element>
+        <element label="When Needed" max_length="40" name="when_needed" type="glide_date_time"/>
+    </element>
+</database>

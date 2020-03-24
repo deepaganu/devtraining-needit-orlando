@@ -6,35 +6,35 @@
         <device_type/>
         <filter/>
         <hint/>
-        <homepage display_value="Self Service">4da11b86c611229701f1d31a48c9245d</homepage>
+        <homepage/>
         <image/>
-        <link_type>HOMEPAGE</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Homepage</mobile_title>
+        <mobile_title>sys_users</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>200</order>
+        <name>x_58872_needit_sys_user</name>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_58872_needit.needittable_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-20 11:02:27</sys_created_on>
+        <sys_created_on>2020-03-23 11:22:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>97dea4ab2faf00102b8afe1df699b65b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Homepage</sys_name>
+        <sys_id>277098602ff300102b8afe1df699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_users</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_app_module_97dea4ab2faf00102b8afe1df699b65b</sys_update_name>
+        <sys_update_name>sys_app_module_277098602ff300102b8afe1df699b68b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-23 10:14:39</sys_updated_on>
+        <sys_updated_on>2020-03-23 11:22:56</sys_updated_on>
         <timeline_page/>
-        <title>Homepage</title>
+        <title>sys_users</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
